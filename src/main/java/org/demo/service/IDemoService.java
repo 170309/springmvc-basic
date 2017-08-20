@@ -1,5 +1,8 @@
 package org.demo.service;
 
 public interface IDemoService {
-    void sout();
+    void demoOut(String x);
+    void addUser();
+    void addProduct();
+    void addCategory();
 }

@@ -29,8 +29,16 @@ public class DemoController {
 
     @RequestMapping("service.do")
     public void doDemoServiceMethod(){
-        demoService.sout();
+        String x= "xxxxxxxxxxxx";
+        demoService.demoOut(x);
     }
 
+
+    @RequestMapping("add.do")
+    public void doDemoAddServiceMethod(){
+        demoService.addUser();
+        demoService.addProduct();
+        demoService.addCategory();
+    }
 
 }

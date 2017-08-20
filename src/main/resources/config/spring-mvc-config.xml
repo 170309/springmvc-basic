@@ -16,6 +16,7 @@
     <!--默认的注解映射-->
     <mvc:annotation-driven/>
 
+    <!--处理静态资源使用的mvc解释器-->
     <mvc:default-servlet-handler/>
 
 </beans>
